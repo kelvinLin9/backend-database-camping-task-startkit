@@ -452,3 +452,4 @@ FROM "COURSE_BOOKING" cb
 WHERE 
     EXTRACT(MONTH FROM created_at) = 11
     AND status != '課程已取消';
+
